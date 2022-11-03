@@ -1,0 +1,7 @@
+#!/opt/odoo/odoo_16/odoo_16-OCA-OCB_20100-virtualenv-wrapper/bin/python
+# EASY-INSTALL-DEV-SCRIPT: 'odoo==16.0','odoo'
+__requires__ = 'odoo==16.0'
+__import__('pkg_resources').require('odoo==16.0')
+__file__ = '/opt/odoo/odoo_16/setup/odoo'
+with open(__file__) as f:
+    exec(compile(f.read(), __file__, 'exec'))

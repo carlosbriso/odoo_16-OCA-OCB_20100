@@ -4,14 +4,21 @@
 
 [Unit]
 Description=Odoo 16.0 ERP server  → 20100_db-clean → 20100/tcp
-After=postgresql-15.service
+After=network.target postgresql-15.service
 
 [Service]
 Type=simple
 User=odoo
 Group=odoo
 
-ExecStart=/opt/odoo/odoo_16/odoo_16-OCA-OCB_20100-virtualenv-wrapper/bin/python3.9 /opt/odoo/odoo_16/odoo-bin -c  /opt/odoo/odoo_16/config/odoo_16_20100.cfg 
+SyslogIdentifier=odoo
+PermissionsStartOnly=true
+
+
+ExecStart=/opt/odoo/odoo_16/odoo_16-OCA-OCB_20100-virtualenv-wrapper/bin/python3.9 /opt/odoo/odoo_16/odoo-bin -c  /opt/odoo/odoo_16/config/odoo_16_20100.cfg
+
+StandardOutput=journal+console
 
 [Install]
 WantedBy=multi-user.target
+

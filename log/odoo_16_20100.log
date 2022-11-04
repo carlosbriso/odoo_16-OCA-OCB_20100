@@ -195,3 +195,88 @@ ERROR: no se pudo serializar el acceso debido a un delete concurrente
 2022-11-03 09:43:58,376 9808 INFO 20100_db-clean odoo.service.server: Initiating shutdown 
 2022-11-03 09:43:58,376 9808 INFO 20100_db-clean odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
 2022-11-03 09:43:58,711 9808 INFO 20100_db-clean odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2022-11-04 07:15:19,521 3267 INFO ? odoo: Odoo version 16.0 
+2022-11-04 07:15:19,521 3267 INFO ? odoo: Using configuration file at /opt/odoo/odoo_16/config/odoo_16_20100-Ejemplo.cfg 
+2022-11-04 07:15:19,521 3267 INFO ? odoo: addons paths: ['/opt/odoo/odoo_16/odoo/addons', '/opt/odoo/.local/share/Odoo/addons/16.0', '/opt/odoo/odoo_16/addons'] 
+2022-11-04 07:15:19,522 3267 INFO ? odoo: database: default@192.168.10.150:5432 
+2022-11-04 07:15:20,408 3267 INFO ? odoo.addons.base.models.ir_actions_report: A package may be missing to print Data Matrix barcodes: pylibdmtx or libdmtx. 
+2022-11-04 07:15:20,433 3267 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2022-11-04 07:15:22,343 3267 INFO 20100_db-clean odoo.modules.loading: loading 1 modules... 
+2022-11-04 07:15:22,343 3267 INFO 20100_db-clean odoo.modules.loading: Loading module base (1/1) 
+2022-11-04 07:15:22,366 3267 INFO 20100_db-clean odoo.modules.registry: module base: creating or updating database tables 
+2022-11-04 07:15:25,322 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res_bank.xml 
+2022-11-04 07:15:25,370 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res.lang.csv 
+2022-11-04 07:15:25,650 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res_lang_data.xml 
+2022-11-04 07:15:25,718 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res_partner_data.xml 
+2022-11-04 07:15:25,805 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res_company_data.xml 
+2022-11-04 07:15:25,935 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res_users_data.xml 
+2022-11-04 07:15:26,960 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2022-11-04 07:15:26,966 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res_currency_data.xml 
+2022-11-04 07:15:27,451 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res_country_data.xml 
+2022-11-04 07:15:27,908 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2022-11-04 07:15:27,976 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2022-11-04 07:15:27,981 3267 INFO 20100_db-clean odoo.modules.loading: loading base/security/base_groups.xml 
+2022-11-04 07:15:28,159 3267 INFO 20100_db-clean odoo.modules.loading: loading base/security/base_security.xml 
+2022-11-04 07:15:28,290 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/base_menus.xml 
+2022-11-04 07:15:28,450 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2022-11-04 07:15:28,537 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_config_views.xml 
+2022-11-04 07:15:28,562 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/res.country.state.csv 
+2022-11-04 07:15:29,769 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2022-11-04 07:15:29,990 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2022-11-04 07:15:30,015 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2022-11-04 07:15:30,050 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2022-11-04 07:15:30,090 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2022-11-04 07:15:30,113 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2022-11-04 07:15:30,140 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2022-11-04 07:15:30,171 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_model_views.xml 
+2022-11-04 07:15:30,368 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2022-11-04 07:15:30,397 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2022-11-04 07:15:30,482 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2022-11-04 07:15:30,510 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2022-11-04 07:15:30,536 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2022-11-04 07:15:30,595 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_default_views.xml 
+2022-11-04 07:15:30,618 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2022-11-04 07:15:30,626 3267 INFO 20100_db-clean odoo.modules.loading: loading base/report/ir_model_report.xml 
+2022-11-04 07:15:30,629 3267 INFO 20100_db-clean odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2022-11-04 07:15:30,647 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2022-11-04 07:15:30,671 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2022-11-04 07:15:30,688 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_module_views.xml 
+2022-11-04 07:15:30,784 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2022-11-04 07:15:31,077 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/ir_module_module.xml 
+2022-11-04 07:15:31,115 3267 INFO 20100_db-clean odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2022-11-04 07:15:31,118 3267 INFO 20100_db-clean odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2022-11-04 07:15:31,130 3267 INFO 20100_db-clean odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2022-11-04 07:15:31,144 3267 INFO 20100_db-clean odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2022-11-04 07:15:31,160 3267 INFO 20100_db-clean odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2022-11-04 07:15:31,172 3267 INFO 20100_db-clean odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2022-11-04 07:15:31,195 3267 INFO 20100_db-clean odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2022-11-04 07:15:31,205 3267 INFO 20100_db-clean odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2022-11-04 07:15:31,221 3267 INFO 20100_db-clean odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2022-11-04 07:15:31,237 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2022-11-04 07:15:31,240 3267 INFO 20100_db-clean odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2022-11-04 07:15:31,251 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2022-11-04 07:15:31,279 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_company_views.xml 
+2022-11-04 07:15:31,310 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_lang_views.xml 
+2022-11-04 07:15:31,341 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_partner_views.xml 
+2022-11-04 07:15:31,510 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_bank_views.xml 
+2022-11-04 07:15:31,552 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_country_views.xml 
+2022-11-04 07:15:31,602 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_currency_views.xml 
+2022-11-04 07:15:31,649 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_users_views.xml 
+2022-11-04 07:15:31,881 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/ir_property_views.xml 
+2022-11-04 07:15:31,905 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2022-11-04 07:15:31,935 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2022-11-04 07:15:31,964 3267 INFO 20100_db-clean odoo.modules.loading: loading base/views/onboarding_views.xml 
+2022-11-04 07:15:32,000 3267 INFO 20100_db-clean odoo.modules.loading: loading base/security/ir.model.access.csv 
+2022-11-04 07:15:32,251 3267 INFO 20100_db-clean odoo.addons.base.models.ir_module: module base: loading translation file (es) for language es_ES 
+2022-11-04 07:15:32,251 3267 INFO 20100_db-clean odoo.tools.translate: loading /opt/odoo/odoo_16/odoo/addons/base/i18n/es.po 
+2022-11-04 07:15:33,414 3267 INFO 20100_db-clean odoo.modules.loading: Module base loaded in 11.07s, 8430 queries (+8430 other) 
+2022-11-04 07:15:33,414 3267 INFO 20100_db-clean odoo.modules.loading: 1 modules loaded in 11.07s, 8430 queries (+8430 extra) 
+2022-11-04 07:15:33,428 3267 INFO 20100_db-clean odoo.modules.loading: updating modules list 
+2022-11-04 07:15:33,429 3267 INFO 20100_db-clean odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2022-11-04 07:15:34,097 3267 INFO 20100_db-clean odoo.modules.loading: loading 76 modules... 
+2022-11-04 07:15:35,650 3267 INFO 20100_db-clean odoo.modules.loading: 76 modules loaded in 1.55s, 0 queries (+0 extra) 
+2022-11-04 07:15:36,794 3267 INFO 20100_db-clean odoo.modules.loading: Modules loaded. 
+2022-11-04 07:15:36,857 3267 INFO 20100_db-clean odoo.modules.registry: Registry loaded in 15.362s 
+2022-11-04 07:15:36,857 3267 INFO 20100_db-clean odoo.service.server: Initiating shutdown 
+2022-11-04 07:15:36,857 3267 INFO 20100_db-clean odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-11-04 07:15:36,858 3267 INFO 20100_db-clean odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
